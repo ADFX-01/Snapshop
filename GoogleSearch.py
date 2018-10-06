@@ -1,11 +1,11 @@
 try:
     from googlesearch import search
 except ImportError:
-    print("No module named 'google' found")
+    print("No mod found")
 
 tags = "samsung, s8, technology, phone"
-query = tags + " , shopping"
+searchTerms = tags + " , shopping"
 
 print("Top result(s) pertaining to your image search: ")
-for j in search(query, tld="com", num=1, stop=1, pause=2):
+for j in search(searchTerms, tld="com", num=1, stop=1, pause=2):
     print(j)
