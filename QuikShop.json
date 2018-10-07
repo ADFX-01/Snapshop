@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "quikshop-218714",
+  "private_key_id": "615738ebf2e2a98fca74a57106712b547b5078b8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCoIB7R1vXQVY7Q\nG9dNlt5JRcLM1Ek9Qr5JoTznIY2QsSsmtfCRDCe16SG45abQ/EEmK5eEEsnNTHYJ\nVcijihujFiYlwsFVxKDM8ng4c2tsAPZTXfOIvhWRXJZYHKT8swxa4V2t9Cy2AChM\nTLyH3pd92uSlqYOssJ6w68dJ6CUr2lcWBwnVuU9pdFXC52rTzMy+qpfS7oT5UeV/\nSpH42fwaw+tWj3Iis+lugNxxrEO6WSmkznx8P0CxkB6bf+MPVoNAKAAVEj89sitr\nk8/j+7WLvzaQ/TtyDAL+CPRFt7ad/ncxHtm6CDcGWrmq/6yynIBv3mOlfGLOMl3T\nfePWoy2ZAgMBAAECggEAFFJznz46TtE0tsuSuhZ5Loav7gXgB3dknG5QuAh6femo\nc2CtID9Foou4T4r039CKCHTe9vA1c+sg3m5/1uLIBe3UtR5GM9mVbUiGxx4Od0rj\ne37BA/+kCELWinaF6+Sxot+YbQE1kVdSB60D4fGCQsx9dFfZ6nsb53tMhs64hYUH\n62Nczvkji7o1I+Id5KmhOGLEkk94In08KgK85ylSN5JpGM5QedRec2T6DhUoRaCt\ny1NjuMBfcc5XEL3GaseMQDF48MHCdzKBRhMOA8P8fb1s5OIKuKTY5F359NGhk7Mu\nXWTSdnaEyv32z1RSc8KNG8mrH2NAsEu+eoWlGZbXnQKBgQDYyL0qBb0wIkhhvyHe\nlDP36DLw+zRh/4HIn367cpG1B7FOQd0694HozjMWJdKlhrFO0+imB6BIDlY0nezw\ncqniPY8xj1/s14BlpejkE1Ba786PZovfTsIHsKGqg8VdFaFHOF/v8fI0QHztLWxp\n6n0cxJjOd4GgPyAs8yDjGuGARQKBgQDGigBbXLcN0tVqO22GqjUAsLC1CPWXiIJE\nNgsAqO8hKcEluPIQIFFhYVBiwLK9A5hcmOd7+2qa0XYbXevophh5j4EGnZZ9kyvZ\n/9u7UpJp7YAfwFv2mk6T089y1oVoUI3J6C1+1JGUTM1Q3zrukDc15gN1daT9mUsO\n8aohHVpfRQKBgBVDOyqP/YpnEmpj8NJ//sjmAXkZan3iLbybyDZiemAjLQTb+PL7\nq8ZF00Ts2MhbebCdoEgIn3Px1Aq9IqxC0t7Z4t2djm8QhAt0Rm94ZX1F4CC4kieI\n9gcDEBhFbGpA4Ny3btF+DZ+KY7Zvqh6JXVQhBEvb9N7e0i0We7dKv6txAoGAd4UK\nU/XLqUG8AljGRaRfhgvYRROgrVmbei7CjuIkGuXFBc2Bw52BAEuSFfEFaO4qIcxW\nxneDJLJmFHGFHCgpYby3IuFpgC1B39m8UNeTlrtIP1UQx7L7DNkc8HgeFb8wrFTe\nVpTnEsztaPsJwiYFZqgSevqYmaZX3iYzkf3WsrUCgYAVZ8jRT6ekEf5GovWM/ffg\nD3AN8E+6L1BfhKEKfbgBpZ/GRhL82qZhAs6fgMy3ambVOAOqaYEyW1HdHRQoNH/I\n1eQmqYPN0NdqaxI75NOO1cGQ2f4MHnVAhVvpTF9d8PKfaX8MARyI1NI3z6u097JT\n30nO8ZQ+wYahIm2Z63Cv+w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "quikshop@quikshop-218714.iam.gserviceaccount.com",
+  "client_id": "114177533063995777775",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/quikshop%40quikshop-218714.iam.gserviceaccount.com"
+}
