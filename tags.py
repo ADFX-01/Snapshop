@@ -1,6 +1,8 @@
-from google.cloud import vision
+(from google.cloud import vision_v1
+from google.cloud.vision_v1 import types
 import os
 import io
+from google.appengine.api import search
 
 #find current directory
 cwd = os.getcwd()
@@ -15,13 +17,14 @@ tags = ''
 
 def detect_logos(path):
     """Detects logos in the file."""
-    from google.cloud import vision
-    client = vision.ImageAnnotatorClient()
+    from google.cloud import vision_v1
+
+    client = vision_v1.ImageAnnotatorClient()
 
     with io.open(path, 'rb') as image_file:
         content = image_file.read()
 
-    image = vision.types.Image(content=content)
+    image = vision_v1.types.Image(content=content)
 
     response = client.logo_detection(image=image)
     logos = response.logo_annotations
@@ -34,13 +37,14 @@ def detect_logos(path):
 
 def detect_labels(path):
     """Detects labels in the file."""
-    from google.cloud import vision
-    client = vision.ImageAnnotatorClient()
+    from google.cloud import vision_v1
+    
+    client = vision_v1.ImageAnnotatorClient()
 
     with io.open(path, 'rb') as image_file:
         content = image_file.read()
 
-    image = vision.types.Image(content=content)
+    image = vision_v1.types.Image(content=content)
 
     response = client.label_detection(image=image)
     labels = response.label_annotations
@@ -53,13 +57,15 @@ def detect_labels(path):
 
 def detect_text(path):
     """Detects text in the file."""
-    from google.cloud import vision
-    client = vision.ImageAnnotatorClient()
+    from google.cloud import vision_v1
+    
+    
+    client = vision_v1.ImageAnnotatorClient()
 
     with io.open(path, 'rb') as image_file:
         content = image_file.read()
 
-    image = vision.types.Image(content=content)
+    image = vision_v1.types.Image(content=content)
 
     response = client.text_detection(image=image)
     texts = response.text_annotations
@@ -74,4 +80,10 @@ detect_labels(image)
 detect_logos(image)
 detect_text(image)
 
+
+
 print(tags)
+
+file = open("tags.txt", "w+")
+file. write(tags)
+file.close()
