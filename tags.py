@@ -2,7 +2,6 @@ from google.cloud import vision_v1
 from google.cloud.vision_v1 import types
 import os
 import io
-from google.appengine.api import search
 
 #find current directory
 cwd = os.getcwd()

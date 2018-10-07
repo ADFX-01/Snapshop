@@ -1,0 +1,12 @@
+{
+  "web": {
+    "client_id": "554690295571-3siuolnddf0r5s8iiarntah3a94kjq45.apps.googleusercontent.com",
+    "project_id": "quikshop-218620",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://www.googleapis.com/oauth2/v3/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "tRwXS9Mnmq3z-m0AIiOm9nWt",
+    "redirect_uris": [ "http://quikpic.shop" ],
+    "javascript_origins": [ "http://quikpic.shop" ]
+  }
+}
