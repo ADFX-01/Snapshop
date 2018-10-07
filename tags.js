@@ -16,7 +16,8 @@ var tags = []
 GOOGLE_APPLICATION_CREDENTIAL = key;
 
 function convert(array, target){
-  var target = array.join()
+  var target = array.toString()
+  var target = target.replace(/\r/g, "").replace(/\n/g, "");
   console.log(target)
 
 }
