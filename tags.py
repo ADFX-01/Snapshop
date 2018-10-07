@@ -2,11 +2,12 @@ from google.cloud import vision_v1
 from google.cloud.vision_v1 import types
 import os
 import io
+from GoogleSearch import gSearch
 
 #find current directory
 cwd = os.getcwd()
 api_key = cwd + "\quikShop.json"
-image = cwd + "\image1.jpg"
+image = cwd + "\image1.jpeg"
 
 #set api_key
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = api_key
@@ -86,3 +87,5 @@ print(tags)
 file = open("tags.txt", "w+")
 file. write(tags)
 file.close()
+
+gSearch(tags)
